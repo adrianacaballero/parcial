@@ -9,5 +9,7 @@ namespace Caballero.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Caballero.Models.Clown> Clowns { get; set; }
     }
 }
